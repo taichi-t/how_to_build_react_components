@@ -47,7 +47,7 @@ const config: webpack.Configuration = {
     }),
   ],
   devServer: {
-    port: 3000,
+    port:8000,
     contentBase: path.resolve(__dirname, 'dist/'),
     watchContentBase: true,
     inline: true,
